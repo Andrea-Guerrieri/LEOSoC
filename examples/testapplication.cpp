@@ -28,7 +28,5 @@ int main ( int argc, char *argv[] )
     leosoc_create ( 2, &input_data, &output_data );
     
     leosoc_join ( 0, TIMEOUT );
-    sleep ( 2 );
-    leosoc_join ( 1, TIMEOUT );
     
 }

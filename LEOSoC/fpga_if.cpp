@@ -89,13 +89,6 @@ uint32_t write_reg ( uint32_t address, uint32_t value )
 
     acc_p = mmap ( NULL, PAGE_SIZE, PROT_READ | PROT_WRITE, MAP_SHARED, fd, address );
 
-    * ( volatile uint32_t * ) ( acc_p ) = 0 ;
-    * ( volatile uint32_t * ) ( acc_p ) = 1 ;
-    * ( volatile uint32_t * ) ( acc_p ) = 0 ;
-    * ( volatile uint32_t * ) ( acc_p ) = 1 ;
-
-    exit ( 0 );
-
     if ( acc_p == MAP_FAILED ) 
     {
         fprintf ( stderr, "mmap64(0x%x@0x%x) failed (%d)\n", PAGE_SIZE, ( uint32_t ) ( address ), errno );
