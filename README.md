@@ -17,7 +17,7 @@ internal structure of the library. Basically, the software library
 is mainly composed of two parts: a front-end and a back-end.
 
 <p align="center">
-  <img width="600" height="200" src="./InternalStructure.png" /></p>
+  <img width="532" height="437" src="./InternalStructure.png" /></p>
 
 
 ## Requirements
