@@ -6,7 +6,7 @@ the application to partially or completely change the structure of the HAs at ru
 
 [ Andrea Guerrieri, Sahand Kashani-Akhavan, Mikhail Asiatici, Paolo Ienne. 2019. Snap-On User-Space Manager for Dynamically Reconfigurable System-on-Chips. IEEE Access ]
 
-Please cite that paper when using this hardware module.
+Please cite that paper when using this library.
 
 ## Overview
 
